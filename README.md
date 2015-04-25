@@ -1,4 +1,4 @@
-# globelabs-sms
+# globelabs-sms [![Build Status](https://travis-ci.org/BernardTolosajr/globelabs-sms.svg?branch=master)](https://travis-ci.org/BernardTolosajr/globelabs-sms)
 Simple wrapper for globelabs SMS api
 
 ## Installation
