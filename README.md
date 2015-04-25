@@ -13,7 +13,7 @@ var SMS = require('globelabs-sms');
 ```javascript
 //sending sms
 var sms = SMS({senderAddress: '1234', token: 'SuCbrxI6n75bFko5ajI_lx5EK2ticlOS1VAI8fgaAy4'});
-sms.send({address: '9159234344',message: 'hello from npm'}, function(err, response) {
+sms.send({address: '91592341234',message: 'hello from npm'}, function(err, response) {
   console.log(response);
 });
 ```
