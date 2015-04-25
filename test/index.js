@@ -1,7 +1,7 @@
 var expect = require('chai').expect,
     sinon = require('sinon'),
     needle = require('needle'),
-    SMS = require('../lib/sms');
+    SMS = require('../index');
 
 describe('SMS', function(){
   var mock = null;
