@@ -13,6 +13,7 @@ deploy:
   provider: npm
   email: bernardotolosajr@gmail.com
   api_key:
-    secure: a85qFrQcp4Gg+W3NissTYT9NmQ09w0Bvr/QoLq59UOk6hklnGe/scSR6M9FgGufuo8TqtM/yHzfm2leLaOWibsmabIJlGUX8pgupT5f2nXwh2DxL5NfNMQMaKPbMqP/tkTa+eRD9AaY6KNCKKeQqqWQFwLWzc3heiYs628UzzpQ=
+    secure: Apk90RGMkDaLj42ydPAAkEUCclFmEAeO2nkyICSzDXVD+Ifw821ywkp7OLp2Vo2DiOfQdGno1y5jLkH+KqfIUTAXjM1SmI+P1YZlXfIEbaSsuxa5kVT6sqoQhIQpN6fkhn0t4XZ855Mr/pBSAlcJjLUOQhVIuv/bnyt6IgdRRAs=
   on:
+    tags: true
     repo: BernardTolosajr/globelabs-sms
