@@ -2,13 +2,10 @@ language: node_js
 node_js:
 - '0.12'
 - '0.10'
-
 sudo: fals
-
 before_install:
-  - "npm config set spin false"
-  - "npm install -g npm@^2"
-
+- npm config set spin false
+- npm install -g npm@^2
 cache:
   directories:
   - node_modules
@@ -20,4 +17,6 @@ deploy:
   provider: npm
   email: bernardotolosajr@gmail.com
   api_key:
-    secure: Apk90RGMkDaLj42ydPAAkEUCclFmEAeO2nkyICSzDXVD+Ifw821ywkp7OLp2Vo2DiOfQdGno1y5jLkH+KqfIUTAXjM1SmI+P1YZlXfIEbaSsuxa5kVT6sqoQhIQpN6fkhn0t4XZ855Mr/pBSAlcJjLUOQhVIuv/bnyt6IgdRRAs=
+    secure: XJvxIyeTnE/ISQ8vyJvRl38q4ezCh2Fm1OXz5ZsYVCd/nFmppFjbPMdfqWbrG14lEmaantJ3FylGbEJiH3+DJrptm/DDsGnRRXjeGsMnrDIjpIlcqlTZznxd/Tm65lVI7yWM3GMMboyN0aUjBTjxMOr41PLyIiOXSsclhX14iLQ=
+  on:
+    repo: BernardTolosajr/globelabs-sms
