@@ -1,14 +1,19 @@
 nguage: node_js
 node_js:
-  - "0.12"
-  - "0.10"
-
+- '0.12'
+- '0.10'
 cache:
   directories:
-      - node_modules
-
+  - node_modules
 install:
-  - npm install
-
+- npm install
 script:
-  - npm test
+- npm test
+deploy:
+  provider: npm
+  email: bernardotolosajr@gmail.com
+  api_key:
+    secure: Cyorvm679NHL4PyNxTbNCwOEAOMY6Eoqs9089DChTSVTdJktwW1ewTFT31QLqYgfGztvBk9Q+ZJoR/3pvDkYAYzY8HfouOBjWZrwfCXvwFylUSj4HQT/XqW5W7EIgGxqgydEzWdd6K+nS9WpszoYGza+DK7KdBxv2wTyJ+WFNhQ=
+  on:
+    branch: master
+    repo: BernardTolosajr/globelabs-sms
