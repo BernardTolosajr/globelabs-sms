@@ -1,0 +1,14 @@
+nguage: node_js
+node_js:
+  - "0.12"
+  - "0.10"
+
+cache:
+  directories:
+      - node_modules
+
+install:
+  - npm install
+
+script:
+  - npm test
