@@ -21,5 +21,3 @@ deploy:
   email: bernardotolosajr@gmail.com
   api_key:
     secure: Apk90RGMkDaLj42ydPAAkEUCclFmEAeO2nkyICSzDXVD+Ifw821ywkp7OLp2Vo2DiOfQdGno1y5jLkH+KqfIUTAXjM1SmI+P1YZlXfIEbaSsuxa5kVT6sqoQhIQpN6fkhn0t4XZ855Mr/pBSAlcJjLUOQhVIuv/bnyt6IgdRRAs=
-  on:
-    repo: BernardTolosajr/globelabs-sms
