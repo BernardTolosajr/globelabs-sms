@@ -1,4 +1,7 @@
 # globelabs-sms [![Build Status](https://travis-ci.org/BernardTolosajr/globelabs-sms.svg?branch=master)](https://travis-ci.org/BernardTolosajr/globelabs-sms)
+
+[![NPM](https://nodei.co/npm/globelabs-sms.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/globelabs-sms/)
+
 Simple wrapper for globelabs SMS api
 
 ## Installation
